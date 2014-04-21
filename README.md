@@ -19,8 +19,8 @@ In this post, I do four things:
 
 * Third, I use this statistical model to make predictions about crime rates for the rest of 2014. If there's a significant fall-off in violent crime following the introduction of the conceal and carry policy in March 2014, this could be evidence of its success as a deterrent (or that this is a bad model). But if the actual crime data matches the model's forecasted trends, it suggests the new conceal and carry policy has had no effect. There are no findings here as yet, but I expect as the data comes in there will be no significant changes after March 2014.
 
-![2014 homicide predictions](filename='2014_homicide_predictions.png')
+![2014 homicide predictions](filename=2014_homicide_predictions.png)
 
 * Fourth, I find evidence of substantial discrepancies in the reporting some crime data since 2013. This obviously imperils the findings of the analyses done above, but also replicates the findings reported by Bernstein and Isackson. The statistical model above expected that property crimes such as arson, burglary, theft, and robbery should follow a particular pattern, which the observed data significantly deviates from after 2013. I perform some additional analyses to uncover which crimes and reporting districts are driving this discrepancy as well as how severe this discrepancy is.
 
-![Crime rates drop across CPD districts](filename='personal_crime_rates_down.png')
+![Crime rates drop across CPD districts](filename=personal_crime_rates_down.png)
