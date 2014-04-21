@@ -12,6 +12,7 @@ In this post, I do four things:
 * First, I demonstate the relationship crime has with environmental factors like temperature as well as temporal factors like the hour of the day and day of the week. I use a common technique in signal processing to identify that criminal activity not only follows an annual pattern, but also patterns by day of the week.
 
 ![Homicides by time of day and year](homicides_month_hour_heatmap.png)
+![Crime by temperature](crime_and_temperature.png)
 
 * Second, I estimate a simple statistical model based on the findings above. This model combines temperature, the day of the week, the week of the year, and longer-term historical trends and despite its simplicity (relative to more advanced types of time series models that could be estimated), does a very good job explaining the dynamics of crime in Chicago over the past 13 years.
 
@@ -24,3 +25,4 @@ In this post, I do four things:
 * Fourth, I find evidence of substantial discrepancies in the reporting some crime data since 2013. This obviously imperils the findings of the analyses done above, but also replicates the findings reported by Bernstein and Isackson. The statistical model above expected that property crimes such as arson, burglary, theft, and robbery should follow a particular pattern, which the observed data significantly deviates from after 2013. I perform some additional analyses to uncover which crimes and reporting districts are driving this discrepancy as well as how severe this discrepancy is.
 
 ![Crime rates drop across CPD districts](personal_crime_rates_down.png)
+![Errors from model](recent observed errors.png)
